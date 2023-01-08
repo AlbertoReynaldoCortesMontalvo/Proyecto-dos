@@ -109,6 +109,17 @@ input[name="title"]:focus, textarea[name="description"]:focus {
     border-bottom: 2px solid steelblue;
 }
 
+input[type="submit"] {
+    background-color: #fff;
+    border: 1.5px solid steelblue;
+    color: steelblue;
+    transition: .5s;
+}
+
+input[type="submit"]:hover {
+    background-color: steelblue;
+    color: #fff;
+}
 
 .list-style {
     padding: 20px;
