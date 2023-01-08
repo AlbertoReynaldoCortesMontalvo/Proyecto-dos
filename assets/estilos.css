@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:  Helvetica, Arial, sans-serif;
+}
+
+.btn {
+    padding: 12px;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer!important;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+}
+
+.item a {
+    color:steelblue;
+    margin: 5px;
+    padding: 15px;
+    text-decoration: none;
+
+    transition: 0.5s;
+}
+
+.item a:hover {
+    border-bottom: 1px solid slateblue;
+}
+
+.btn-subs {
+    color: #fff;
+    background-color: salmon;
+    border: 1px solid salmon;
+
+    transition: 0.5s;
+}
+
+.btn-subs:hover {
+    color: salmon;
+    background-color: #fff;
+}
+
+/* Section .crud */
+.crud {
+    width: 70%;
+    margin: 30px auto;
+}
+
+@media screen and (max-width: 700px) {
+    .crud  {
+        width: 95%;
+    }
+}
+
+
+.crud-title {
+    text-align: center;
+    margin: 30px;
+}
+
+.crud-title h1 {
+    font-size: 2rem;
+}
+
+.crud-title h3 {
+    color: steelblue;
+    font-size: 2rem;
+}
+
+.crud-section {
+    margin: 20px;
+    padding: 30px;
+}
+
+.title-task, .desc-task {
+    font-size: 1.5rem;
+}
+
+input[name="title"], textarea[name="description"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.5rem;
+    color: #a3a3a3;
+    border-style: none;
+    border-bottom: 2px solid #ccc ;
+    margin: 10px!important;
+    outline: none;
+    transition: .5s;
+}
+
+input[name="title"]:focus, textarea[name="description"]:focus {
+    border-bottom: 2px solid steelblue;
+}
+
+
+.list-style {
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(203, 218, 238);
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .list-content {
+        margin: 10px auto;
+    }
+
+    .list-item {
+        justify-content: space-around;
+    }
+}
+
+.list-item {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s;
+}
+
+.btn-delate {
+    cursor: pointer;
+    transition: .5s;
+}
+
+.list-content {
+    padding: 8px;
+}
+
+.btn-delate:hover {
+    background: #fff;
+}
+
+.list-title, .list-desc {
+    padding: 10px;
+    color: steelblue;
+}
+
+.list-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.list-desc {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+
+    <link rel="stylesheet" href="./assets/estilos.css">
+</head>
+<body>
+    <header class="main">
+        <nav class="menu">
+            <ul class="menu-list">
+                <li class="item"><a href="#">Inicio</a> </li>
+                <li class="item"><a href="#">Sobre Nosotros</a> </li>
+                <li class="item"><a href="#">Saber Más</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="crud">
+        <div class="crud-title">
+            <h1>CRUD</h1>
+            <h3>Proyecto 2</h3>
+        </div>
+
+        <div class="crud-section">
+            <form id="form">
+                <h3 class="title-task">Tarea</h3>
+                <input type="text" name="title" value id="title">
+
+                <h3 class="desc-task">Descripción</h3>
+                <textarea name="description" id="desc" cols="30" rows="5"></textarea>
+
+                <input type="submit" value="Agregar Tarea" class="btn btn-task" id="btn-save"></input>
+            </form>
+        </div>
+
+        <div class="list-style" id="list">
+
+        </div>
+    </section>
+
+<script src="./assets/index.js"></script>
+</body>
+</html>
