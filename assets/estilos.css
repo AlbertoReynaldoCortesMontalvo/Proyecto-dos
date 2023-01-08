@@ -40,6 +40,10 @@ html {
     border-bottom: 1px solid slateblue;
 }
 
+.main {
+    border-bottom: 1px solid slateblue;
+}
+
 .btn-subs {
     color: #fff;
     background-color: salmon;
