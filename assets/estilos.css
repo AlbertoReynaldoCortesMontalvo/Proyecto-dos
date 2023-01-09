@@ -18,8 +18,7 @@ html {
 .menu {
     display: flex;
     justify-content: space-between;
-    margin: 15px;
-    padding: 15px;
+    padding: 30px;
 }
 
 .menu-list {
@@ -28,7 +27,7 @@ html {
 }
 
 .item a {
-    color:steelblue;
+    color:#fff;
     margin: 5px;
     padding: 15px;
     text-decoration: none;
@@ -36,12 +35,8 @@ html {
     transition: 0.5s;
 }
 
-.item a:hover {
-    border-bottom: 1px solid slateblue;
-}
-
 .main {
-    border-bottom: 1px solid slateblue;
+    background-color: steelblue;
 }
 
 .btn-subs {
@@ -171,4 +166,66 @@ input[type="submit"]:hover {
 
 .list-desc {
     font-size: 1.5rem;
+}
+
+/* footer */
+@media (min-width: 300px) and (max-width:1000px) {
+    .footer-menu {
+        display: block!important;
+    }
+}
+
+footer {
+    padding: 90px 10px;
+    width: 80%;
+    margin: 0 auto;
+
+    border-top: 1px solid steelblue;
+}
+
+
+.footer-menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.catalogo, .soporte {
+    margin: 10px 30px;
+    padding: 20px;
+}
+
+.catalogo h3, .soporte h3 {
+    color: steelblue;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.catalogo p, .soporte p {
+    color: slategray;
+    font-size: 1rem;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales a {
+    color: #7a7a7a;
+    margin: 10px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.derechos-reservados {
+    text-align: center;
+    font-size: 1rem;
+    color: steelblue;
 }
